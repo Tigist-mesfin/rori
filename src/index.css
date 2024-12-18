@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* index.css or src/styles/index.css */
+@layer base {
+    /* Customize selected text color */
+    ::selection {
+      background-color: #000;
+      color: white;
+    }
+  
+    /* Cursor when hovering over text */
+    p, span {
+      cursor:text ;
+    }
+  
+    /* Global custom cursor style */
+    body {
+      cursor: url('path/to/your/black-cursor.png'), auto;
+    }
+  }
+  
+
+
